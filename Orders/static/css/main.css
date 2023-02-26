@@ -1,0 +1,35 @@
+h3{
+    color: blue;
+    text-decoration: dashed;
+    border: 2px;
+    
+}
+p{
+    color: black;
+    
+    
+}
+body{
+
+    background-color: bisque;
+}
+
+a{
+    color:burlywood
+}
+
+table{
+    color:blue
+}
+
+form{
+    border: 4px;
+    border-color: antiquewhite;
+	background-color: black;
+	color:burlywood;
+}
+
+img{
+    background-color: black;
+}
+

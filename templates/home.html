@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" {% static 'css/style.css' %} ">
+    {% comment %} <link rel="stylesheet" href=" {% static 'uikit/styles/uikit.css' %} " />
+	<!-- Dev Search UI -->
+	<link rel="stylesheet" href=" {% static 'css/app.css' %}  " /> {% endcomment %}
+    <title>Order Here!!!</title>
+</head>
+<body>
+
+    {% block content %}
+        <p>welcome to homepage</p>
+      
+    {% endblock content %}
+    
+	<script src=" {% static 'js/jquery.min.js' %} "></script>
+	<script src=" {% static 'js/popper.js' %}  "></script>
+	<script src=" {% static 'js/bootstrap.min.js' %}  "></script>
+	<script src=" {% static 'js/jquery.validate.min.js' %}  "></script>
+	<script src="  {% static 'js/main.js' %} "></script>
+</body>
+</html>
